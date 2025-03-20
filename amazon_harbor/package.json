@@ -1,0 +1,26 @@
+{
+  "name": "amazon_harbor",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "dotenv -- turbo start",
+    "build": "turbo build",
+    "clean": "turbo clean",
+    "dev": "dotenv -e .env.local -- turbo dev --no-cache  --continue",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo lint",
+    "test": "dotenv -- turbo test",
+    "typecheck": "turbo typecheck"
+  },
+  "dependencies": {
+    "dotenv-cli": "latest",
+    "prettier": "^3.0.3",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@9.1.1"
+}

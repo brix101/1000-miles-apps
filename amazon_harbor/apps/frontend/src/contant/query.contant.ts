@@ -1,0 +1,23 @@
+export const QUERY_ACTIVE_USER_KEY = "active_user";
+export const QUERY_BRANDS_KEY = "brands";
+export const QUERY_CAMPAIGNS_KEY = "campaigns";
+export const QUERY_CATEGORIES_KEY = "categories";
+export const QUERY_COMPANIES_KEY = "companies";
+export const QUERY_LISTING_KEY = "listings";
+export const QUERY_LISTING_PRODUCTS_KEY = "listing_products";
+export const QUERY_MARKETPLACES_KEY = "marketplaces";
+export const QUERY_MODULES_KEY = "modules";
+export const QUERY_PROCUREMENT_PRODUCTS_KEY = "procurement_products";
+export const QUERY_PRODUCT_KEY = "products";
+export const QUERY_SALES_BY_PRODUCTS_KEY = "sales_by_products";
+export const QUERY_SALES_ORDER_METRIC_KEY = "sales_order_metric";
+export const QUERY_SALES_AND_TRAFFIC_BY_PRODUCTS_KEY =
+  "sales_and_traffic_by_products";
+export const QUERY_SALE_AND_TRAFFIC_KEY = "sale_and_traffic";
+export const QUERY_RETURN_KEY = "return";
+export const QUERY_SHIPMENT_STATUSES_KEY = "shipment_statuses";
+export const QUERY_SHIPMENTS_KEY = "shipments";
+export const QUERY_USER_KEY = "user";
+export const QUERY_USERS_KEY = "users";
+export const QUERY_ZULU_PRODUCTS_KEY = "zulu_products";
+export const QUERY_REPORT_KEY = "report";

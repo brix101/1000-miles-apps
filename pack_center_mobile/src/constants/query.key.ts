@@ -1,0 +1,17 @@
+export const QUERY_KEYS = {
+  AUTH_USER: "auth-user",
+  USERS: "users",
+  PERMISSIONS: "permissions",
+  TEMPLATES: "templates",
+  GROUPS: "groups",
+  ZULU_CUSTOMERS: "zulu-customers",
+  CUSTOMER_TEMPLATES: "customer-templates",
+  FILES: "files",
+  INFINITE_SALES_ORDERS: "infinite-sales-orders",
+  INFINITE_ASSORTMENTS: "infinite-assortments",
+  SALES_ORDERS: "sales-orders",
+  ASSORTMENTS: "assortments",
+  REPORT_PREVIEWS: "report-previews",
+  RETAKES: "retakes",
+  INFINITE_RETAKES: "infinite-retakes",
+};

@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 9.0.5"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://packcentertest.1000miles.info/api"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://packcenter.1000miles.info/api"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://packcenter.1000miles.info/api"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

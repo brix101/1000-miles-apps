@@ -1,0 +1,36 @@
+{
+  "name": "@repo/logger",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "start": "tsup",
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "lint": "eslint src/",
+    "test": "jest",
+    "clean": "rm -rf dist node_modules"
+  },
+  "jest": {
+    "preset": "@repo/jest-presets/jest/node"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.6",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/jest-presets": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "pino": "^8.16.2",
+    "pino-pretty": "^10.2.3"
+  }
+}

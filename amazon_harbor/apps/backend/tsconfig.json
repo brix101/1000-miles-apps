@@ -1,0 +1,22 @@
+// @ts-ignore
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "lib": ["ES2015"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "Node",
+    },
+  },
+  "exclude": ["node_modules"],
+  "include": ["."],
+}
