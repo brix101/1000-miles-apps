@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+/venv
+/static/*
+!/static/*.gitkeep
+
+/customer_scraper/*.json
+/customer_scraper/*.csv
+/customer_scraper/logs/
+
+/dist
+/app/services/ganzResult_unique.json
